@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="vodkalimon-2.local" id="0" name="CategoryControllerTests" package="libre" tests="8" time="4.418" timestamp="2011-11-05T13:37:05">
+      <properties />
+
+      <testcase classname="libre.CategoryControllerTests" name="testIndex" time="2.47" />
+
+      <testcase classname="libre.CategoryControllerTests" name="testList" time="0.618" />
+
+      <testcase classname="libre.CategoryControllerTests" name="testCreate" time="0.135" />
+
+      <testcase classname="libre.CategoryControllerTests" name="testSave" time="0.519" />
+
+      <testcase classname="libre.CategoryControllerTests" name="testShow" time="0.132" />
+
+      <testcase classname="libre.CategoryControllerTests" name="testEdit" time="0.093" />
+
+      <testcase classname="libre.CategoryControllerTests" name="testUpdate" time="0.12">
+          <failure message="Assertion failed: &#xa;&#xa;assert view == &quot;/category/edit&quot;&#xa;       |    |&#xa;       null false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert view == &quot;/category/edit&quot;
+       |    |
+       null false
+
+	at libre.CategoryControllerTests.testUpdate(CategoryControllerTests.groovy:123)
+</failure>
+
+      </testcase>
+
+      <testcase classname="libre.CategoryControllerTests" name="testDelete" time="0.146" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="vodkalimon-2.local" id="1" name="CategoryTests" package="libre" tests="1" time="0.174" timestamp="2011-11-05T13:37:09">
+      <properties />
+
+      <testcase classname="libre.CategoryTests" name="testSomething" time="0.086" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
